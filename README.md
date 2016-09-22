@@ -11,5 +11,6 @@ Exercise: Adding a server and MVC to API project
 * MVC file pathing: 
   * /public/index.html
   * /public/css/stylesheet.css
+
 ## Code currently not working:
 * API code (/public/javascript/script.js)
