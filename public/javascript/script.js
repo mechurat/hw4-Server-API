@@ -1,6 +1,6 @@
-$('form').on('submit', handleSubmit);   
+$('form').on('submit', handleSubmit);  
 
-function handleSubmit(event){
+function handleSubmit(event) {
     console.log(event);
     //don't leave the page
     event.preventDefault();
@@ -12,16 +12,20 @@ function handleSubmit(event){
         title:$('title').val()
     };
     var i=0;
+    
+function findEle(){
+    while(searchEle[i]==''){
+    if(searchEle[i] != ''){
+        return var appEle(searchEle[i]);
+        console.log(searchEle[i]);
+    }
+    else:
+        i++;
+}};
 
     var formData ={
         //use 'if' statement in while loop to determine which search parameter was used, and then submit that data with a return
-        while(searchEle[i]==''){
-            if(searchEle[i] != ''){
-                return searchEle[i];
-                console.log(searchEle[i]);
-            }
-            i++;
-        }
+
         //Current errors:
         //Returns all 3 search parameters
         //Posts them AFTER the API key in the URL

@@ -10,5 +10,14 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.14.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mechurat/hw4-Server-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mechurat/hw4-Server-API/issues"
+  },
+  "homepage": "https://github.com/mechurat/hw4-Server-API#readme"
 }
